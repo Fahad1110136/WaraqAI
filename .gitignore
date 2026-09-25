@@ -1,0 +1,43 @@
+# Environment variables (contains your GROQ_API_KEY — never commit this)
+.env
+
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# Python cache / bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Generated indexes (rebuild with `python main.py ingest` instead of committing)
+index_store/
+
+# Uploaded source documents (user-uploaded content, not source code)
+documents/
+
+# Chat history (per-user conversation data)
+chat_history/
+
+# User accounts (contains hashed passwords — never commit this)
+users.json
+
+# Session signing secret (used to sign login tokens — never commit this)
+.session_secret
+
+# Hugging Face / model download cache (if it ends up inside the project folder)
+.cache/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
