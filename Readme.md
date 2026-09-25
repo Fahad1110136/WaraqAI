@@ -1,4 +1,4 @@
-# 📖 Arabic Chat — Hybrid RAG Chatbot (دردشة عربية)
+# 📖 WaraqAI — Arabic Hybrid RAG Chatbot (دردشة عربية)
 
 A multi-user, Arabic first **Retrieval-Augmented Generation (RAG)** chatbot with a Streamlit UI. It combines **dense vector search (FAISS)** and **sparse keyword search (BM25)**, fuses them with **Reciprocal Rank Fusion**, re-ranks with a **cross-encoder**, and generates grounded Arabic answers with an LLM — falling back to the model's general knowledge when no relevant document is found. It also auto translates every Arabic answer to English for convenience.
 
